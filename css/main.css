@@ -106,7 +106,20 @@ article{
   height: 100px;
   background-color: grey;
   border: 1px solid black;
+  float: left;
+
 }
+.half{
+   width: 50%;
+}
+.thirds{
+  width: 33.33%;
+}
+.sevenths{
+  width:14.285%;
+  width:calc(1/7*100%);
+}
+.
 /* ==========================================================================
    Helper classes
    ========================================================================== */
