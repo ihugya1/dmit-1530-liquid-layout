@@ -102,11 +102,25 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   header img{
+    width: 100%;
+   
+
+   }
+    header{
+   
+    display: flex;
+    justify-content: flex-start;
+
+   }
 article{
   height: 100px;
   background-color: grey;
-  border: 1px solid black;
+ /* border: 1px solid black;*/
   float: left;
+}
+img{
+  width: 100%;
 }
 
 .col-75{
@@ -126,14 +140,24 @@ article{
 }
 .col-20{
   width: 20%;
+  background-image: url("../img/image1.png");
+  height: 100%;
 }
 .col-40{
   width: 40%;
 }
-
+.col-100{
+  width: 100%;
+}
+.col-60{
+  width: 60%;
+}
+.col-30{
+  width: 30%;
+}
 body{
-  max-width: 1000px;
-  margin: 0 auto;
+ /* max-width: 1000px;
+  margin: 0 auto;*/
 }
 
 
